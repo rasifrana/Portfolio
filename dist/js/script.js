@@ -33,3 +33,15 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+var typed = new Typed(".sm-heading", {
+  strings: [
+    "Front End Web Developer",
+    "Front End Web Developer",
+    "a programmer",
+    "with knowledge of Html, CSS, javaScript, React Js"
+  ],
+  typeSpeed: 50,
+  backSpeed: 50,
+  loop: true
+});
